@@ -1,16 +1,4 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "version": 2,
-  "outputDirectory": ".",
-  "cleanUrls": true,
-  "rewrites": [
-    {
-      "source": "/api/:path*",
-      "destination": "https://zaheerbackend.vercel.app/api/:path*"
-    },
-    {
-      "source": "/uploads/:path*",
-      "destination": "https://zaheerbackend.vercel.app/uploads/:path*"
-    }
-  ]
+  "framework": "nextjs"
 }
